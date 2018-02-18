@@ -18,9 +18,11 @@ public:
     int vertexDegree(int v);
 
     void printMatrix();
-    
+
     bool checkComplete();
-   
+
+    
+    friend Graph addGraphs(Graph &g1, Graph &g2);
 protected:
     int n_vertex;
     std::vector<std::pair<unsigned, unsigned>> edges;

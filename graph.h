@@ -18,6 +18,9 @@ public:
     int vertexDegree(int v);
 
     void printMatrix();
+
+    bool checkComplete();
+
 protected:
     int n_vertex;
     std::vector<std::pair<unsigned, unsigned>> edges;
